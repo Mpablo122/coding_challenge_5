@@ -51,3 +51,12 @@ let findcustomer = customers.find(customer => customer === "Charlie");
 console.log(findcustomer)
 
 //Task 8 - Tax Calculation
+function calculateSalesTax(price, taxrate){
+    return price * taxrate
+}
+let price = 300
+let taxrate = 0.10; // 10 percent tax
+
+let taxamount = calculateSalesTax(price,taxrate);
+console.log (`Tax calculation: $${taxamount}`); // simply just shows the discount 
+console.log ("Price after tax:" , price - taxamount) // show the actual price after tax 
