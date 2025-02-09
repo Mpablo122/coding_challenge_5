@@ -29,3 +29,5 @@ console.log(cartItems);
 cartItems.unshift("Pop tarts");
 cartItems.shift();
 console.log("Final list of the Cart Items:", cartItems);
+
+// Task 4 - Price Adjustments.
