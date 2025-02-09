@@ -46,4 +46,6 @@ let totalRevenue = sales.reduce((sum, price) => sum + price, 0); // reduce funct
 console.log("Total revenue amounted:", totalRevenue);
 
 //Task 7 - Customer Search.
-
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let findcustomer = customers.find(customer => customer === "Charlie");
+console.log(findcustomer)
