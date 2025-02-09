@@ -62,3 +62,14 @@ console.log (`Tax calculation: $${taxamount}`); // simply just shows the discoun
 console.log ("Price after tax:" , price - taxamount) // show the actual price after tax 
 
 //Task 9 function expression
+
+function applydiscount (price, discount){
+    return price * discount
+}
+let cost = 250 
+let discount = 0.40 // 40 percent off
+
+let discounted_price = applydiscount(price,discount);
+console.log(`Discount calculation: $${discounted_price}`);
+console.log("Price after applied discount:", "$",cost - discounted_price)
+
