@@ -31,3 +31,6 @@ cartItems.shift();
 console.log("Final list of the Cart Items:", cartItems);
 
 // Task 4 - Price Adjustments.
+let prices = [100,200,300];
+let prices_discounted = prices.map(price => price * 0.9);
+console.log("Final Discounted Prices: ", prices_discounted)
