@@ -34,3 +34,9 @@ console.log("Final list of the Cart Items:", cartItems);
 let prices = [100,200,300];
 let prices_discounted = prices.map(price => price * 0.9);
 console.log("Final Discounted Prices: ", prices_discounted)
+
+//Task 5 - Product Availability."
+let inventory = [10, 0 , 14 ,16, 18];
+let availability = inventory.filter (quantity => quantity > 0);
+console.log (availability)
+
