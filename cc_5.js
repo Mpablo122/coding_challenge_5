@@ -49,3 +49,5 @@ console.log("Total revenue amounted:", totalRevenue);
 let customers = ["Alice", "Bob", "Charlie", "David"];
 let findcustomer = customers.find(customer => customer === "Charlie");
 console.log(findcustomer)
+
+//Task 8 - Tax Calculation
