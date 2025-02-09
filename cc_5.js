@@ -60,3 +60,5 @@ let taxrate = 0.10; // 10 percent tax
 let taxamount = calculateSalesTax(price,taxrate);
 console.log (`Tax calculation: $${taxamount}`); // simply just shows the discount 
 console.log ("Price after tax:" , price - taxamount) // show the actual price after tax 
+
+//Task 9 function expression
