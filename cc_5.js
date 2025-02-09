@@ -45,3 +45,5 @@ let sales = [500, 300, 200, 400]
 let totalRevenue = sales.reduce((sum, price) => sum + price, 0); // reduce function to calculate total revenue 
 console.log("Total revenue amounted:", totalRevenue);
 
+//Task 7 - Customer Search.
+
