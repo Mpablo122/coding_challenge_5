@@ -73,3 +73,10 @@ let discounted_price = applydiscount(price,discount);
 console.log(`Discount calculation: $${discounted_price}`);
 console.log("Price after applied discount:", "$",cost - discounted_price)
 
+// Task 10 arrow function
+const calculatePoints = (amountpurchased) => {
+    return amountpurchased / 10;
+}
+
+let points = calculatePoints(200);
+console.log("Earned Points:" + points)
